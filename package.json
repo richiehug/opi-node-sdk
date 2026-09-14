@@ -1,0 +1,33 @@
+{
+  "name": "@richiehug/opi",
+  "version": "1.0.0",
+  "description": "OPI terminal communication for Node.js",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "integration.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "author": "Richard Hug",
+  "homepage": "https://richiehug.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richiehug/opi-node-sdk.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "saxes": "6.0.0"
+  }
+}
